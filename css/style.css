@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+}
+:root {
+  --bg-color: #8db4fc;
+  --second-bg-color: #628bd6;
+  --text-color: #fff;
+  --main-color: #0ef;
+  --span-color: #2937ff;
+}
+.nav{
+    background-color: var(--bg-color);
+    padding-bottom: 30px;
+    padding-top: 20px;
+    width: 100%;
+}
+.nav img{
+ /* margin-bottom: 10px; */
+ width: 100px;
+}
+.nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav ul li{
+    padding: 0px 10px;
+}
+.nav a{
+  text-decoration: none;
+  color: var(--text-color);
+  transition: .4s ease;
+}
+
+.nav a:hover{
+  color: var(--second-bg-color);
+}
+.banner{
+  margin-top: 50px;
+  padding-bottom: 50px;
+}
+p{
+  font-size: 24px;
+}
+.primeira-secao{
+  padding-bottom: 20px;
+}
+.primeira-secao h1{
+  font-size: 35px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.primeira-secao  h2{
+  font-size: 30px;
+}
+.primeira-secao img{
+  width: 500px;
+}
+.primeira-secao p{
+  margin: 10px auto;
+  width: 80%;
+  text-align: justify;
+}
+span{
+  color: var(--span-color);
+  text-decoration: underline;
+  cursor: pointer;
+}
+.segunda-secao{
+  background-color: var(--second-bg-color);
+  padding-top: 30px;
+  padding-bottom: 40px;
+  color: var(--text-color);
+}
+
+.segunda-secao h2{
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+.segunda-secao p{
+   margin: 10px auto;
+  width: 60%;
+  text-align: center;
+  /* line-height: 1; */
+  margin-bottom: 25px;
+}
+.segunda-secao p span{
+  color: #ffff00;
+}
+.segunda-secao ul{
+  line-height: 40px;
+  /* list-style-type: circle; */
+}
+.segunda-secao ul li{
+  cursor: pointer;
+  font-size: 22px;
+}
+.terceira-secao{
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.terceira-secao img{
+  width: 250px;
+}
+
+.terceira-secao h2{
+  color: var(--span-color);
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+.terceira-secao img{
+  width: 450px;
+  margin-bottom: 30px;
+}
+.terceira-secao p{
+  margin: 10px auto;
+  width: 80%;
+  text-align: justify;
+  font-size: 20px;
+}
+
+.quarta-secao{
+  background-color: var(--second-bg-color);
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.quarta-secao h2{
+  font-size: 30px;
+  color: var(--text-color);
+  margin-bottom: 20px;
+}
+.quarta-secao p{
+  margin: 20px auto;
+  width: 80%;
+  text-align: justify;
+  font-size: 20px;
+  background-color: #000000;
+  color: var(--text-color);
+  
+}
+.quarta-secao p span{
+  color: #ffff00;
+  cursor: default;
+}
+.quarta-secao ul{
+  line-height: 40px;
+}
+.quarta-secao ul li a{
+  background-color: #ffffff;
+  padding: 5px;
+  border-radius: 10px;
+}
